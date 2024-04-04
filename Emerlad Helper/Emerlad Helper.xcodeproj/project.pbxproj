@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C10197792BA0A6010015D741 /* VehiclesOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10197782BA0A6010015D741 /* VehiclesOverview.swift */; };
+		C101977B2BA0A9D00015D741 /* ItemsCatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C101977A2BA0A9D00015D741 /* ItemsCatalogView.swift */; };
+		C13615702BA66F5A00C87207 /* ItemCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C136156F2BA66F5A00C87207 /* ItemCategoryView.swift */; };
+		C1849FEE2B990B5600543EC2 /* Emerlad_HelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1849FED2B990B5600543EC2 /* Emerlad_HelperApp.swift */; };
+		C1849FF02B990B5600543EC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1849FEF2B990B5600543EC2 /* ContentView.swift */; };
+		C1849FF22B990B5800543EC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1849FF12B990B5800543EC2 /* Assets.xcassets */; };
+		C1849FF52B990B5800543EC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1849FF42B990B5800543EC2 /* Preview Assets.xcassets */; };
+		C1849FFF2B990B5800543EC2 /* Emerlad_HelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1849FFE2B990B5800543EC2 /* Emerlad_HelperTests.swift */; };
+		C184A0092B990B5800543EC2 /* Emerlad_HelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C184A0082B990B5800543EC2 /* Emerlad_HelperUITests.swift */; };
+		C184A00B2B990B5800543EC2 /* Emerlad_HelperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C184A00A2B990B5800543EC2 /* Emerlad_HelperUITestsLaunchTests.swift */; };
+		C184A0182B991AE100543EC2 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = C184A0172B991AE100543EC2 /* Employee.swift */; };
+		C184A01A2B991B2200543EC2 /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C184A0192B991B2200543EC2 /* MonthView.swift */; };
+		C184A01C2B991BED00543EC2 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C184A01B2B991BED00543EC2 /* ScheduleView.swift */; };
+		C199BEBC2BB5EB4800A64C26 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C199BEBB2BB5EB4800A64C26 /* ItemDetailView.swift */; };
+		C19ED7142B9BE94D00C9D6C0 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = C19ED7132B9BE94D00C9D6C0 /* FirebaseAnalytics */; };
+		C19ED7162B9BE94D00C9D6C0 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C19ED7152B9BE94D00C9D6C0 /* FirebaseAnalyticsSwift */; };
+		C19ED7182B9BE94D00C9D6C0 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C19ED7172B9BE94D00C9D6C0 /* FirebaseAuth */; };
+		C19ED71A2B9BE94D00C9D6C0 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = C19ED7192B9BE94D00C9D6C0 /* FirebaseAuthCombine-Community */; };
+		C19ED71C2B9BE94D00C9D6C0 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = C19ED71B2B9BE94D00C9D6C0 /* FirebaseCrashlytics */; };
+		C19ED71E2B9BE94D00C9D6C0 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = C19ED71D2B9BE94D00C9D6C0 /* FirebaseDatabase */; };
+		C19ED7202B9BE94D00C9D6C0 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C19ED71F2B9BE94D00C9D6C0 /* FirebaseDatabaseSwift */; };
+		C19ED7222B9BE94D00C9D6C0 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C19ED7212B9BE94D00C9D6C0 /* FirebaseFirestore */; };
+		C19ED7242B9BE94D00C9D6C0 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = C19ED7232B9BE94D00C9D6C0 /* FirebaseFirestoreCombine-Community */; };
+		C19ED7262B9BE94D00C9D6C0 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C19ED7252B9BE94D00C9D6C0 /* FirebaseFirestoreSwift */; };
+		C19ED7282B9BE94D00C9D6C0 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = C19ED7272B9BE94D00C9D6C0 /* FirebaseFunctions */; };
+		C19ED72A2B9BE94D00C9D6C0 /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = C19ED7292B9BE94D00C9D6C0 /* FirebaseFunctionsCombine-Community */; };
+		C19ED72C2B9BE94D00C9D6C0 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = C19ED72B2B9BE94D00C9D6C0 /* FirebaseStorage */; };
+		C19ED72E2B9BE94D00C9D6C0 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = C19ED72D2B9BE94D00C9D6C0 /* FirebaseStorageCombine-Community */; };
+		C19ED7302B9C0AA000C9D6C0 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19ED72F2B9C0AA000C9D6C0 /* AddItemView.swift */; };
+		C19ED7322B9C0CAB00C9D6C0 /* FirestoreHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19ED7312B9C0CAB00C9D6C0 /* FirestoreHelper.swift */; };
+		C1AF2DBA2B9D403900661E38 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1AF2DB92B9D403900661E38 /* GoogleService-Info.plist */; };
+		C1AF2DBC2B9D4B7200661E38 /* AddVehicleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AF2DBB2B9D4B7200661E38 /* AddVehicleView.swift */; };
+		C1AF2DBE2B9D559000661E38 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AF2DBD2B9D559000661E38 /* SignUpView.swift */; };
+		C1AF2DC12B9D55B700661E38 /* GooglePlaces in Frameworks */ = {isa = PBXBuildFile; productRef = C1AF2DC02B9D55B700661E38 /* GooglePlaces */; };
+		C1AF2DC32B9D56DC00661E38 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AF2DC22B9D56DC00661E38 /* Location.swift */; };
+		C1E151072B9AA154002C52EA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E151062B9AA154002C52EA /* User.swift */; };
+		C1E151092B9AA8CA002C52EA /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E151082B9AA8CA002C52EA /* Vehicle.swift */; };
+		C1E1510B2B9AB528002C52EA /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1510A2B9AB528002C52EA /* Item.swift */; };
+		C1E1510E2B9AC701002C52EA /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1510D2B9AC701002C52EA /* Inventory.swift */; };
+		C1E151102B9ACA0F002C52EA /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1510F2B9ACA0F002C52EA /* SwiftUIView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1849FFB2B990B5800543EC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1849FE22B990B5600543EC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1849FE92B990B5600543EC2;
+			remoteInfo = "Emerlad Helper";
+		};
+		C184A0052B990B5800543EC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1849FE22B990B5600543EC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1849FE92B990B5600543EC2;
+			remoteInfo = "Emerlad Helper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C10197782BA0A6010015D741 /* VehiclesOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesOverview.swift; sourceTree = "<group>"; };
+		C101977A2BA0A9D00015D741 /* ItemsCatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsCatalogView.swift; sourceTree = "<group>"; };
+		C136156F2BA66F5A00C87207 /* ItemCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCategoryView.swift; sourceTree = "<group>"; };
+		C1849FEA2B990B5600543EC2 /* Emerlad Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emerlad Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1849FED2B990B5600543EC2 /* Emerlad_HelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emerlad_HelperApp.swift; sourceTree = "<group>"; };
+		C1849FEF2B990B5600543EC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C1849FF12B990B5800543EC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1849FF42B990B5800543EC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C1849FFA2B990B5800543EC2 /* Emerlad HelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Emerlad HelperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1849FFE2B990B5800543EC2 /* Emerlad_HelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emerlad_HelperTests.swift; sourceTree = "<group>"; };
+		C184A0042B990B5800543EC2 /* Emerlad HelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Emerlad HelperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C184A0082B990B5800543EC2 /* Emerlad_HelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emerlad_HelperUITests.swift; sourceTree = "<group>"; };
+		C184A00A2B990B5800543EC2 /* Emerlad_HelperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emerlad_HelperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C184A0172B991AE100543EC2 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		C184A0192B991B2200543EC2 /* MonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
+		C184A01B2B991BED00543EC2 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		C199BEBB2BB5EB4800A64C26 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
+		C19ED72F2B9C0AA000C9D6C0 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		C19ED7312B9C0CAB00C9D6C0 /* FirestoreHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreHelper.swift; sourceTree = "<group>"; };
+		C1AF2DB92B9D403900661E38 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C1AF2DBB2B9D4B7200661E38 /* AddVehicleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVehicleView.swift; sourceTree = "<group>"; };
+		C1AF2DBD2B9D559000661E38 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		C1AF2DC22B9D56DC00661E38 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		C1E151062B9AA154002C52EA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C1E151082B9AA8CA002C52EA /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		C1E1510A2B9AB528002C52EA /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		C1E1510D2B9AC701002C52EA /* Inventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
+		C1E1510F2B9ACA0F002C52EA /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1849FE72B990B5600543EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19ED7202B9BE94D00C9D6C0 /* FirebaseDatabaseSwift in Frameworks */,
+				C19ED71E2B9BE94D00C9D6C0 /* FirebaseDatabase in Frameworks */,
+				C19ED7162B9BE94D00C9D6C0 /* FirebaseAnalyticsSwift in Frameworks */,
+				C1AF2DC12B9D55B700661E38 /* GooglePlaces in Frameworks */,
+				C19ED7242B9BE94D00C9D6C0 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				C19ED7182B9BE94D00C9D6C0 /* FirebaseAuth in Frameworks */,
+				C19ED7262B9BE94D00C9D6C0 /* FirebaseFirestoreSwift in Frameworks */,
+				C19ED71C2B9BE94D00C9D6C0 /* FirebaseCrashlytics in Frameworks */,
+				C19ED7222B9BE94D00C9D6C0 /* FirebaseFirestore in Frameworks */,
+				C19ED72E2B9BE94D00C9D6C0 /* FirebaseStorageCombine-Community in Frameworks */,
+				C19ED72C2B9BE94D00C9D6C0 /* FirebaseStorage in Frameworks */,
+				C19ED7142B9BE94D00C9D6C0 /* FirebaseAnalytics in Frameworks */,
+				C19ED7282B9BE94D00C9D6C0 /* FirebaseFunctions in Frameworks */,
+				C19ED71A2B9BE94D00C9D6C0 /* FirebaseAuthCombine-Community in Frameworks */,
+				C19ED72A2B9BE94D00C9D6C0 /* FirebaseFunctionsCombine-Community in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1849FF72B990B5800543EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C184A0012B990B5800543EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1849FE12B990B5600543EC2 = {
+			isa = PBXGroup;
+			children = (
+				C1AF2DB92B9D403900661E38 /* GoogleService-Info.plist */,
+				C1849FEC2B990B5600543EC2 /* Emerlad Helper */,
+				C1849FFD2B990B5800543EC2 /* Emerlad HelperTests */,
+				C184A0072B990B5800543EC2 /* Emerlad HelperUITests */,
+				C1849FEB2B990B5600543EC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1849FEB2B990B5600543EC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1849FEA2B990B5600543EC2 /* Emerlad Helper.app */,
+				C1849FFA2B990B5800543EC2 /* Emerlad HelperTests.xctest */,
+				C184A0042B990B5800543EC2 /* Emerlad HelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1849FEC2B990B5600543EC2 /* Emerlad Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C1E1510C2B9AC694002C52EA /* models */,
+				C1849FED2B990B5600543EC2 /* Emerlad_HelperApp.swift */,
+				C1849FF12B990B5800543EC2 /* Assets.xcassets */,
+				C1849FF32B990B5800543EC2 /* Preview Content */,
+				C1E1510F2B9ACA0F002C52EA /* SwiftUIView.swift */,
+				C19ED7312B9C0CAB00C9D6C0 /* FirestoreHelper.swift */,
+			);
+			path = "Emerlad Helper";
+			sourceTree = "<group>";
+		};
+		C1849FF32B990B5800543EC2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C19ED72F2B9C0AA000C9D6C0 /* AddItemView.swift */,
+				C1AF2DBB2B9D4B7200661E38 /* AddVehicleView.swift */,
+				C184A0192B991B2200543EC2 /* MonthView.swift */,
+				C184A01B2B991BED00543EC2 /* ScheduleView.swift */,
+				C1849FEF2B990B5600543EC2 /* ContentView.swift */,
+				C1849FF42B990B5800543EC2 /* Preview Assets.xcassets */,
+				C1AF2DBD2B9D559000661E38 /* SignUpView.swift */,
+				C10197782BA0A6010015D741 /* VehiclesOverview.swift */,
+				C101977A2BA0A9D00015D741 /* ItemsCatalogView.swift */,
+				C136156F2BA66F5A00C87207 /* ItemCategoryView.swift */,
+				C199BEBB2BB5EB4800A64C26 /* ItemDetailView.swift */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C1849FFD2B990B5800543EC2 /* Emerlad HelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1849FFE2B990B5800543EC2 /* Emerlad_HelperTests.swift */,
+			);
+			path = "Emerlad HelperTests";
+			sourceTree = "<group>";
+		};
+		C184A0072B990B5800543EC2 /* Emerlad HelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C184A0082B990B5800543EC2 /* Emerlad_HelperUITests.swift */,
+				C184A00A2B990B5800543EC2 /* Emerlad_HelperUITestsLaunchTests.swift */,
+			);
+			path = "Emerlad HelperUITests";
+			sourceTree = "<group>";
+		};
+		C1E1510C2B9AC694002C52EA /* models */ = {
+			isa = PBXGroup;
+			children = (
+				C1E151082B9AA8CA002C52EA /* Vehicle.swift */,
+				C1E151062B9AA154002C52EA /* User.swift */,
+				C1E1510A2B9AB528002C52EA /* Item.swift */,
+				C184A0172B991AE100543EC2 /* Employee.swift */,
+				C1E1510D2B9AC701002C52EA /* Inventory.swift */,
+				C1AF2DC22B9D56DC00661E38 /* Location.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1849FE92B990B5600543EC2 /* Emerlad Helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C184A00E2B990B5800543EC2 /* Build configuration list for PBXNativeTarget "Emerlad Helper" */;
+			buildPhases = (
+				C1849FE62B990B5600543EC2 /* Sources */,
+				C1849FE72B990B5600543EC2 /* Frameworks */,
+				C1849FE82B990B5600543EC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Emerlad Helper";
+			packageProductDependencies = (
+				C19ED7132B9BE94D00C9D6C0 /* FirebaseAnalytics */,
+				C19ED7152B9BE94D00C9D6C0 /* FirebaseAnalyticsSwift */,
+				C19ED7172B9BE94D00C9D6C0 /* FirebaseAuth */,
+				C19ED7192B9BE94D00C9D6C0 /* FirebaseAuthCombine-Community */,
+				C19ED71B2B9BE94D00C9D6C0 /* FirebaseCrashlytics */,
+				C19ED71D2B9BE94D00C9D6C0 /* FirebaseDatabase */,
+				C19ED71F2B9BE94D00C9D6C0 /* FirebaseDatabaseSwift */,
+				C19ED7212B9BE94D00C9D6C0 /* FirebaseFirestore */,
+				C19ED7232B9BE94D00C9D6C0 /* FirebaseFirestoreCombine-Community */,
+				C19ED7252B9BE94D00C9D6C0 /* FirebaseFirestoreSwift */,
+				C19ED7272B9BE94D00C9D6C0 /* FirebaseFunctions */,
+				C19ED7292B9BE94D00C9D6C0 /* FirebaseFunctionsCombine-Community */,
+				C19ED72B2B9BE94D00C9D6C0 /* FirebaseStorage */,
+				C19ED72D2B9BE94D00C9D6C0 /* FirebaseStorageCombine-Community */,
+				C1AF2DC02B9D55B700661E38 /* GooglePlaces */,
+			);
+			productName = "Emerlad Helper";
+			productReference = C1849FEA2B990B5600543EC2 /* Emerlad Helper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1849FF92B990B5800543EC2 /* Emerlad HelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C184A0112B990B5800543EC2 /* Build configuration list for PBXNativeTarget "Emerlad HelperTests" */;
+			buildPhases = (
+				C1849FF62B990B5800543EC2 /* Sources */,
+				C1849FF72B990B5800543EC2 /* Frameworks */,
+				C1849FF82B990B5800543EC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1849FFC2B990B5800543EC2 /* PBXTargetDependency */,
+			);
+			name = "Emerlad HelperTests";
+			productName = "Emerlad HelperTests";
+			productReference = C1849FFA2B990B5800543EC2 /* Emerlad HelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C184A0032B990B5800543EC2 /* Emerlad HelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C184A0142B990B5800543EC2 /* Build configuration list for PBXNativeTarget "Emerlad HelperUITests" */;
+			buildPhases = (
+				C184A0002B990B5800543EC2 /* Sources */,
+				C184A0012B990B5800543EC2 /* Frameworks */,
+				C184A0022B990B5800543EC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C184A0062B990B5800543EC2 /* PBXTargetDependency */,
+			);
+			name = "Emerlad HelperUITests";
+			productName = "Emerlad HelperUITests";
+			productReference = C184A0042B990B5800543EC2 /* Emerlad HelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1849FE22B990B5600543EC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					C1849FE92B990B5600543EC2 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					C1849FF92B990B5800543EC2 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C1849FE92B990B5600543EC2;
+					};
+					C184A0032B990B5800543EC2 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C1849FE92B990B5600543EC2;
+					};
+				};
+			};
+			buildConfigurationList = C1849FE52B990B5600543EC2 /* Build configuration list for PBXProject "Emerlad Helper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1849FE12B990B5600543EC2;
+			packageReferences = (
+				C19ED7122B9BE94D00C9D6C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				C1AF2DBF2B9D55B700661E38 /* XCRemoteSwiftPackageReference "ios-places-sdk" */,
+			);
+			productRefGroup = C1849FEB2B990B5600543EC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1849FE92B990B5600543EC2 /* Emerlad Helper */,
+				C1849FF92B990B5800543EC2 /* Emerlad HelperTests */,
+				C184A0032B990B5800543EC2 /* Emerlad HelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1849FE82B990B5600543EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1849FF52B990B5800543EC2 /* Preview Assets.xcassets in Resources */,
+				C1849FF22B990B5800543EC2 /* Assets.xcassets in Resources */,
+				C1AF2DBA2B9D403900661E38 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1849FF82B990B5800543EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C184A0022B990B5800543EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1849FE62B990B5600543EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1849FF02B990B5600543EC2 /* ContentView.swift in Sources */,
+				C184A0182B991AE100543EC2 /* Employee.swift in Sources */,
+				C1E151072B9AA154002C52EA /* User.swift in Sources */,
+				C1E1510E2B9AC701002C52EA /* Inventory.swift in Sources */,
+				C1E151102B9ACA0F002C52EA /* SwiftUIView.swift in Sources */,
+				C1849FEE2B990B5600543EC2 /* Emerlad_HelperApp.swift in Sources */,
+				C1E1510B2B9AB528002C52EA /* Item.swift in Sources */,
+				C1AF2DC32B9D56DC00661E38 /* Location.swift in Sources */,
+				C101977B2BA0A9D00015D741 /* ItemsCatalogView.swift in Sources */,
+				C19ED7322B9C0CAB00C9D6C0 /* FirestoreHelper.swift in Sources */,
+				C199BEBC2BB5EB4800A64C26 /* ItemDetailView.swift in Sources */,
+				C1E151092B9AA8CA002C52EA /* Vehicle.swift in Sources */,
+				C19ED7302B9C0AA000C9D6C0 /* AddItemView.swift in Sources */,
+				C10197792BA0A6010015D741 /* VehiclesOverview.swift in Sources */,
+				C13615702BA66F5A00C87207 /* ItemCategoryView.swift in Sources */,
+				C1AF2DBE2B9D559000661E38 /* SignUpView.swift in Sources */,
+				C184A01A2B991B2200543EC2 /* MonthView.swift in Sources */,
+				C184A01C2B991BED00543EC2 /* ScheduleView.swift in Sources */,
+				C1AF2DBC2B9D4B7200661E38 /* AddVehicleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1849FF62B990B5800543EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1849FFF2B990B5800543EC2 /* Emerlad_HelperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C184A0002B990B5800543EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C184A0092B990B5800543EC2 /* Emerlad_HelperUITests.swift in Sources */,
+				C184A00B2B990B5800543EC2 /* Emerlad_HelperUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1849FFC2B990B5800543EC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1849FE92B990B5600543EC2 /* Emerlad Helper */;
+			targetProxy = C1849FFB2B990B5800543EC2 /* PBXContainerItemProxy */;
+		};
+		C184A0062B990B5800543EC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1849FE92B990B5600543EC2 /* Emerlad Helper */;
+			targetProxy = C184A0052B990B5800543EC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C184A00C2B990B5800543EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C184A00D2B990B5800543EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C184A00F2B990B5800543EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Emerlad Helper/Preview Content\"";
+				DEVELOPMENT_TEAM = AWZ2VFDQ7Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Salinas-Mike.Emerlad-Helper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C184A0102B990B5800543EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Emerlad Helper/Preview Content\"";
+				DEVELOPMENT_TEAM = AWZ2VFDQ7Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Salinas-Mike.Emerlad-Helper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C184A0122B990B5800543EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AWZ2VFDQ7Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Salinas-Mike.Emerlad-HelperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emerlad Helper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Emerlad Helper";
+			};
+			name = Debug;
+		};
+		C184A0132B990B5800543EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AWZ2VFDQ7Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Salinas-Mike.Emerlad-HelperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emerlad Helper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Emerlad Helper";
+			};
+			name = Release;
+		};
+		C184A0152B990B5800543EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AWZ2VFDQ7Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Salinas-Mike.Emerlad-HelperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Emerlad Helper";
+			};
+			name = Debug;
+		};
+		C184A0162B990B5800543EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AWZ2VFDQ7Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Salinas-Mike.Emerlad-HelperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Emerlad Helper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1849FE52B990B5600543EC2 /* Build configuration list for PBXProject "Emerlad Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C184A00C2B990B5800543EC2 /* Debug */,
+				C184A00D2B990B5800543EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C184A00E2B990B5800543EC2 /* Build configuration list for PBXNativeTarget "Emerlad Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C184A00F2B990B5800543EC2 /* Debug */,
+				C184A0102B990B5800543EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C184A0112B990B5800543EC2 /* Build configuration list for PBXNativeTarget "Emerlad HelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C184A0122B990B5800543EC2 /* Debug */,
+				C184A0132B990B5800543EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C184A0142B990B5800543EC2 /* Build configuration list for PBXNativeTarget "Emerlad HelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C184A0152B990B5800543EC2 /* Debug */,
+				C184A0162B990B5800543EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C19ED7122B9BE94D00C9D6C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.22.1;
+			};
+		};
+		C1AF2DBF2B9D55B700661E38 /* XCRemoteSwiftPackageReference "ios-places-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-places-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C19ED7132B9BE94D00C9D6C0 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C19ED7122B9BE94D00C9D6C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		C19ED7152B9BE94D00C9D6C0 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C19ED7122B9BE94D00C9D6C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		C19ED7172B9BE94D00C9D6C0 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C19ED7122B9BE94D00C9D6C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C19ED7192B9BE94D00C9D6C0 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C19ED7122B9BE94D00C9D6C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		C19ED71B2B9BE94D00C9D6C0 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C19ED7122B9BE94D00C9D6C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		C19ED71D2B9BE94D00C9D6C0 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C19ED7122B9BE94D00C9D6C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		C19ED71F2B9BE94D00C9D6C0 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C19ED7122B9BE94D00C9D6C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		C19ED7212B9BE94D00C9D6C0 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C19ED7122B9BE94D00C9D6C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		C19ED7232B9BE94D00C9D6C0 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C19ED7122B9BE94D00C9D6C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		C19ED7252B9BE94D00C9D6C0 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C19ED7122B9BE94D00C9D6C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		C19ED7272B9BE94D00C9D6C0 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C19ED7122B9BE94D00C9D6C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		C19ED7292B9BE94D00C9D6C0 /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C19ED7122B9BE94D00C9D6C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		C19ED72B2B9BE94D00C9D6C0 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C19ED7122B9BE94D00C9D6C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		C19ED72D2B9BE94D00C9D6C0 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C19ED7122B9BE94D00C9D6C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+		C1AF2DC02B9D55B700661E38 /* GooglePlaces */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1AF2DBF2B9D55B700661E38 /* XCRemoteSwiftPackageReference "ios-places-sdk" */;
+			productName = GooglePlaces;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C1849FE22B990B5600543EC2 /* Project object */;
+}
