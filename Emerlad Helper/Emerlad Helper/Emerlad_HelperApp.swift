@@ -32,7 +32,7 @@ struct Emerlad_HelperApp: App {
     var body: some Scene {
       WindowGroup {
         NavigationView {
-         ItemCategoryView()
+         ContentView()
             
         }
       }
